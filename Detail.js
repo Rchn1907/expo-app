@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import {View, Text, StyleSheet, Button, Alert} from 'react-native';
 
 
 
@@ -8,6 +8,7 @@ function Detail() {
     return (
        <View style={styles.container}>
            <Text>Congratulations!</Text>
+           <Button title="Test" onPress={() => Alert.alert("Simple Alert")}/>
        </View>
     );
 }

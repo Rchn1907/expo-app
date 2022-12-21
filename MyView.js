@@ -1,4 +1,4 @@
-import {Alert, Button, StyleSheet, Text, View} from "react-native";
+import {Button, StyleSheet, Text, View} from "react-native";
 
 export default function MyView({ navigation }){
     return(
@@ -7,6 +7,7 @@ export default function MyView({ navigation }){
             <Button
                 title="Click Me"
                 onPress={() => navigation.navigate('Detail')}/>
+            <Button title="Hatim Counter" onPress={() => navigation.navigate('Hatim Counter')}/>
         </View>
     );
 }
