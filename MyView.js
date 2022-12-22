@@ -3,10 +3,10 @@ import {Button, StyleSheet, Text, View} from "react-native";
 export default function MyView({ navigation }){
     return(
         <View style={styles.container}>
-            <Text>Open up App.js to start working on your app!</Text>
+            <Text>Choose one Feature you want to use</Text>
             <Button
-                title="Click Me"
-                onPress={() => navigation.navigate('Detail')}/>
+                title="Find Capital"
+                onPress={() => navigation.navigate('Find Capital')}/>
             <Button title="Hatim Counter" onPress={() => navigation.navigate('Hatim Counter')}/>
         </View>
     );

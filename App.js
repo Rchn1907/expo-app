@@ -19,7 +19,7 @@ export default function App() {
                         headerStyle: { backgroundColor: 'darkblue' }
                     }}
                 />
-                <Stack.Screen name="Detail" component={Detail}
+                <Stack.Screen name="Find Capital" component={Detail}
                               options={{
                                   headerTintColor: 'white',
                                   headerStyle: { backgroundColor: 'darkblue' }
