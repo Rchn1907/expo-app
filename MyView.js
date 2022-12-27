@@ -9,6 +9,7 @@ export default function MyView({ navigation }){
                 onPress={() => navigation.navigate('Find Capital')}/>
             <Button title="Hatim Counter" onPress={() => navigation.navigate('Hatim Counter')}/>
             <Button title="Countries" onPress={() => navigation.navigate('Countries')} />
+            <Button title="Quiz" onPress={() => navigation.navigate('QuizPicker')}/>
         </View>
     );
 }
